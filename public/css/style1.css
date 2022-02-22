@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ol ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+.clr{
+	clear: both;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*welcome page part start*/
+html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+/*welcome page part ends*/
+/*Header part starts*/
+.nav>li>a:hover{
+  text-decoration: none;
+ background: none;
+}
+
+.nav>li>a:focus{
+  color: #fff;
+   background: none;
+}
+.navbar-brand{
+  padding: 0px;
+  margin: 0;
+}
+.navbar-nav>li>a{
+  padding: 0px;
+}
+.menu {
+    display: inline-block;
+    margin-top: -42px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0a0565;
+    margin-right: 10px;
+    text-decoration: none;
+    background: #e6e5e5;
+    padding: 8px;
+}
+.menu li a:hover{
+    color:#0a0565;
+    background: #dbe2ef;
+    padding: 8px;
+}
+span {
+    color: #aa0001;
+}
+.menu li a:hover:first-child{
+    color:none;
+}
+.menu-bg{
+  background:  #aa0001;
+}
+.logo{
+  margin-top: 15px;
+}
+/*Header part ends*/
+/*create page part starts*/
+.create{
+	text-align: center;
+}
+.create h2{
+	color: #080275; 
+	font-weight: 800;
+	margin-top: 25px;
+}
+.create a{
+	color: #007bff; 
+	font-weight: 600;
+}
+/*.underline1{
+    height: 3px;
+    width: 250px;
+    background-color: #080275;
+    margin-left: 500px;
+}*/
+/*alert*/
+   .alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    width: 430px;
+    text-align: center;
+    margin-left: 52px;
+    color: red; 
+    font-weight: bold;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.table{
+	width: 450px; 
+	margin-left: 45px;
+}
+/*paginate part starts*/
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    border-radius: 0.25rem;
+    margin-left: 188px;
+}
+/*create page part ends*/
+/*Students part starts*/
+.heading h1{
+    color: #080275; 
+    font-weight: 800;
+    font-size: 30px;
+}
+.heading a{
+    color: #007bff; 
+    font-weight: 600;
+}
+.allstudentviewtable {
+    margin-left: -8px;
+}
+/*Students part ends*/
